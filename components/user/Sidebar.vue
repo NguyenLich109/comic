@@ -23,9 +23,9 @@
         </div>
       </div>
     </div>
-    <div class="col-span-2 bg-slate-400 rounded-md max-[768px]:col-span-4">
+    <div class="col-span-2 rounded-md max-[768px]:col-span-4 relative w-full after:block after:pb-[50%]">
       <div
-        class="max-h-[300px] overflow-hidden rounded-md max-[454px]:h-[200px]"
+        class="overflow-hidden rounded-md absolute w-full h-full"
       >
         <Swiper
           class="flex cursor-pointer"

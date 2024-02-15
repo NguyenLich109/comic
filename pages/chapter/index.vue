@@ -69,7 +69,7 @@ const handleMoveChapter = ({value}:{value:number}) => {
         <img src="/assets/next.svg" alt="" class="h-4 pl-2" />
       </button>
     </div>
-    <div class="py-2 text-2xl font-[400] leading-10" v-html="chapter_detail.detail?.content_chapter"></div>
+    <div class="py-2 text-2xl font-[400] leading-10 flex flex-col items-center" v-html="chapter_detail.detail?.content_chapter"></div>
     <div class="flex justify-center py-3">
       <button
         @click="() => handleMoveChapter({value: -1})"

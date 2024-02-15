@@ -30,7 +30,7 @@ export default defineNuxtConfig({
   runtimeConfig:{
     port: "https://server-vue.vercel.app/api/comic",
     public:{
-
+      
     }
   }
 });
